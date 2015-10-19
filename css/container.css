@@ -1,0 +1,8 @@
+div.container {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 226, 226);
+    width: 1000px;
+    height: 10000px;
+    margin: 0 auto;
+    padding-top: 100px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Groupong!</title>
+        <link type="text/css" rel="stylesheet" href="css/common.css" />
+        <link type="text/css" rel="stylesheet" href="css/topbar.css" />
+        <link type="text/css" rel="stylesheet" href="css/container.css" />
+    </head>
+    
+    <body>
+        <div class="topbar">
+            <img class="logo_text" src="resources/topbar/logo_text.png" onclick="location.href = './'" />
+            <div class="menu">
+                <div class="profile">
+                    <img class="profile_pic" src="" />
+                    <span class="user_name">Guest</span>
+                </div>
+                <img class="logo_notice" src="resources/topbar/logo_notice.png" />
+                <form class="search" method="get">
+                    <img class="logo_search" src="resources/topbar/logo_search.png" />
+                    <input type="text" name="query" placeholder="Search..." />
+                    <img class="search_x" src="resources/topbar/search_x.png" onclick="document.getElementsByName('query')[0].value = ''" />
+                </form>
+            </div>
+        </div>
+        
+        <div class="container">
+            내용
+        </div>
+    </body>
+</html>
